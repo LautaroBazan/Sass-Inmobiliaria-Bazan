@@ -1,0 +1,42 @@
+$colorTripleLINE: black;
+$wi1: 100%;
+$wi2: 16px;
+
+
+
+.head__lineas{
+    background-color: $colorTripleLINE;
+    width: $wi1;
+    height: $wi2;
+    display: inline-block;
+}
+
+nav{
+    font-family: 'Cantata One', serif;
+    
+    text{
+        transform: uppercase;
+        text-align: center;
+    }
+
+    li{
+        display: inline-block;
+    }
+}
+
+.main__FotoFondo{
+    background-image: url(../img/photo-1600596542815-ffad4c1539a9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+    .cuadroContenedor{
+    height: 100vh;
+    width: auto;
+    border: 1px;
+    border-radius:15px;
+    margin: 46px 11px 121px 11px;
+    }
+    
+    // tengo mucho boostrap por eso uso poco sass, pero lo basico esta.

@@ -1,0 +1,33 @@
+.head__lineas {
+  background-color: black;
+  width: 100%;
+  height: 16px;
+  display: inline-block;
+}
+
+nav {
+  font-family: "Cantata One", serif;
+}
+nav text {
+  transform: uppercase;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+}
+
+.main__FotoFondo {
+  background-image: url(../img/photo-1600596542815-ffad4c1539a9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.cuadroContenedor {
+  height: 100vh;
+  width: auto;
+  border: 1px;
+  border-radius: 15px;
+  margin: 46px 11px 121px 11px;
+}/*# sourceMappingURL=estilos.css.map */
